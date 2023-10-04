@@ -1,0 +1,149 @@
+.footer-container {
+  background-color: #02294b;
+  padding: 20px 20px 20px;
+  color: #e4e4e4;
+}
+
+.partners-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.partners-image {
+  width: auto;
+  height: 28px;
+  padding-right: 20px;
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.social-media-links a {
+  color: #ffffff;
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-information-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.information-link {
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px;
+  margin: 0px 4px;
+}
+
+.footer-paragraph {
+  font-size: 12px;
+  margin: 20px 0px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer-horizontal-line {
+  background-color: #264865;
+  height: 1px;
+  position: absolute;
+  left: -4px;
+  right: 0px;
+}
+
+.footer-paragraph-copyright {
+  font-size: 12px;
+  padding: 20px 0px 0px;
+  text-align: center;
+  line-height: 1.6;
+  position: relative;
+}
+
+.footer-paragraph-credits {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .partners-links {
+    padding: 20px 20px 20px 0px;
+  }
+
+  .partners-image {
+    width: auto;
+    height: 48px;
+    margin-right: 28px;
+  }
+
+  .social-media-links {
+    justify-content: right;
+  }
+
+  .footer-container {
+    padding: 40px 40px 32px;
+  }
+
+  .footer-paragraphs-aligned {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .footer-horizontal-line {
+    display: none;
+  }
+
+  .footer-information-links {
+    justify-content: left;
+    margin-top: 40px;
+  }
+
+  .information-link {
+    margin: 0px 16px 0px 0px;
+    padding: 0px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .information-link + .information-link:before {
+    content: "";
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    left: -7px;
+    background-color: #fff;
+    transform: translateY(40%);
+  }
+
+  .footer-paragraph {
+    font-size: 14px;
+    text-align: left;
+    width: 50%;
+  }
+
+  .footer-paragraph-copyright,
+  .footer-paragraph-credits {
+    text-align: right;
+    font-size: 14px;
+  }
+
+  .copyright-credits-align {
+    width: 40%;
+  }
+
+  .partners-social-media-align {
+    display: flex;
+    justify-content: space-between;
+  }
+}
